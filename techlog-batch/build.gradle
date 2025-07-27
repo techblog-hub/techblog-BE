@@ -1,0 +1,9 @@
+bootJar.enabled = false
+jar.enabled = true
+
+dependencies {
+    implementation project(":techlog-common")
+    implementation project(":techlog-domain")
+}
+
+tasks.register("prepareKotlinBuildScriptModel"){}

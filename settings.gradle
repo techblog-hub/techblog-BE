@@ -1,0 +1,5 @@
+rootProject.name = 'techlog-backend'
+include 'techlog-api'
+include 'techlog-batch'
+include 'techlog-common'
+include 'techlog-domain'
