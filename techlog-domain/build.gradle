@@ -3,7 +3,12 @@ jar.enabled = true
 
 dependencies {
     implementation project(":techlog-common")
+
+    /* mysql */
     runtimeOnly 'com.mysql:mysql-connector-j'
+
+    /* jpa */
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 }
 
 tasks.register("prepareKotlinBuildScriptModel"){}
