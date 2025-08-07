@@ -27,4 +27,4 @@ spring:
     defer-datasource-initialization: true
 
 server:
-  port: 6000
+  port: 8888  # 브라우저 접근 정책에 따른 포트 번호 변경
