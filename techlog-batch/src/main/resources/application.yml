@@ -2,6 +2,10 @@ spring:
   profiles:
     active: local
 
+  batch:
+    jdbc:
+      initialize-schema: always
+
   datasource:
     url: jdbc:mysql://localhost:30000/techlog-local?serverTimezone=UTC&characterEncoding=UTF-8
     username: root
